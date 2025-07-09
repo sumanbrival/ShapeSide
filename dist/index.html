@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicone -->
+    <link rel="shortcut icon" href="/logo/logo psd.jpg" type="image/x-icon" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Remix icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link href="/dist/style.css" rel="stylesheet" />
+    <title>ShapeSide</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+
+
+  <body class="font-Shape bg-cover bg-fixed bg-no-repeat bg-center" 
+  style="background-image: url(/bg/gym1.jpg);">
+
+    <!-- Header -->
+
+    <header>
+
+      <nav class="fixed top-0 left-0 w-full z-50 mobile:backdrop-blur-md mobile:bg-black/80 tablet:backdrop-blur-md table:bg-black/80 laptops:backdrop-blur-md laptops:bg-black/60">
+      
+        <div class="mx-auto container relative h-14 flex justify-between items-center px-5">
+
+          <!-- logo item -->
+
+
+            <div class="text-Shape text-2xl tablet:text-3xl tablet:mt-5">
+              <a href="#">Shape<span class="text-white">Side</span></a>
+            </div>
+
+    <!-- menu items -->
+
+            <div class="hidden absolute top-0 left-0 py-14 mobile:w-full tablet:w-full backdrop-blur-sm bg-black/90 border-b-2 border-white
+            laptops:block laptops:static laptops:py-0 laptops:border-none laptops:w-auto laptops:bg-transparent laptops:mx-auto laptops:backdrop-blur-none"
+            id="nav-menu">
+
+              <ul class="flex flex-col text-center gap-5 laptops:gap-8 items-center text-white laptops:flex laptops:flex-row">
+
+                <li class="py-3 hover:backdrop-blur-sm mobile:hover:bg-Shape mobile:w-full cursor-pointer laptops:hover:backdrop-blur-none laptops:hover:bg-white/0">
+                  <a class="hover:text-amber-300 text-Shape text-xl hover:ease-in hover:duration-200 nav__link" href="#" target="_blank">Home</a></li>
+
+                <li class="py-3 hover:backdrop-blur-sm mobile:hover:bg-Shape mobile:w-full cursor-pointer laptops:hover:backdrop-blur-none laptops:hover:bg-white/0">
+                  <a class="hover:text-amber-300 text-xl hover:ease-in hover:duration-200 nav__link" href="#" target="_blank">About</a></li>
+
+                <li class="py-3 hover:backdrop-blur-sm mobile:hover:bg-Shape mobile:w-full cursor-pointer laptops:hover:backdrop-blur-none laptops:hover:bg-white/0"> 
+                  <a class="hover:text-amber-300 text-xl hover:ease-in hover:duration-200 nav__link" href="#" target="_blank">classes</a></li>
+
+                <li class="py-3 hover:backdrop-blur-sm mobile:hover:bg-Shape mobile:w-full cursor-pointer laptops:hover:backdrop-blur-none laptops:hover:bg-white/0">  
+                  <a class="hover:text-amber-300 text-xl hover:ease-in hover:duration-200 nav__link" href="#" target="_blank">Membership</a></li>  
+
+                <li class="py-3 hover:backdrop-blur-sm mobile:hover:bg-Shape mobile:w-full cursor-pointer laptops:hover:backdrop-blur-none laptops:hover:bg-white/0">
+                  <a class="hover:text-amber-300 text-xl hover:ease-in hover:duration-200 nav__link" href="#" target="_blank">Contact</a></li>
+              </ul>
+
+              <!-- close icon -->
+
+              <div class="absolute cursor-pointer top-[0.7rem] mobile:right-5 text-2xl tablet:mt-3 laptops:hidden" id="nav-close">
+                <i class="ri-close-line text-white"></i>
+              </div>
+            </div>
+
+          <!-- dark and light icon -->
+
+          <div class="flex items-center gap-5 tablet:mt-5">
+            <i class="ri-moon-line text-white cursor-pointer text-xl ml-4"></i>
+
+            <!-- hamburger icon -->
+
+
+            <div class="laptops:hidden" id="hamburger">
+              <i class="ri-menu-2-line text-white cursor-pointer text-xl"></i>
+            </div>
+          </div>
+         
+        </div>
+      </nav>
+
+    </header>
+
+
+<!-- Hero section1 -->
+
+
+    <main>
+
+      <section class="mx-auto container">
+
+        <!-- Unleash Your Potential -->
+        
+        <div class="mobile:mx-3 mobile:mt-60 tablet:mt-96 laptops:mt-72">
+
+          <h3 class="mobile:text-2xl tablet:text-3xl laptops:text-4xl font-light text-Shape">
+            <span>Unleash Your Potential</span>
+          </h3>
+          
+          <h4 class="mt-10 mobile:text-6xl laptops:text-8xl mobile:w-auto tablet:w-[550px] laptops:w-[750px] text-white">
+            <span>Your Destination for Health and Wellness</span>
+          </h4>
+
+          <p class="mobile:mt-8 laptops:mt-5 text-xl font-light tablet:w-[500px] laptops:w-[700px] text-white">
+            From state-of-the-art equipment to expert guidance, we're here to
+            empower you on your path to a healthier, stronger you</p>
+
+          <a href="#"><button class="mobile:text-xl tablet:text-2xl laptops:text-2xl text-white bg-Shape hover:bg-white hover:text-Shape cursor-pointer font-light px-8 py-3 mt-10 hover:transition-all hover:ease-in hover:duration-200"
+            type="submit">Book A Session</button></a>
+
+        </div>
+      
+
+      </section>
+
+<!-- Hero section2 -->
+   
+       <section class="bg-cover bg-fixed bg-no-repeat bg-center" style="background-image: url(/imges/gym12.jpg);">
+
+        <div class="container mx-auto mobile:mt-40 tablet:mt-60 laptops:mt-72">
+        
+        <div class="mobile:text-center laptops:text-left laptops:flex laptops:justify-between laptops:items-center laptops:space-x-12">
+
+          <!-- about us -->
+            
+          <div>
+
+            <h3 class="mobile:pt-8 mobile:text-2xl tablet:text-3xl laptops:text-4xl font-light text-Shape ">
+              <span>About Us</span>
+            </h3>
+
+            <h4 class="mobile:pt-8 mobile:text-center mobile:text-6xl laptops:text-8xl mobile:w-auto tablet:w-[600px] tablet:mx-auto laptops:w-[750px] laptops:text-left text-white">
+              <span>Fitness is not just a routine, it's a lifestyle</span>
+
+            </h4>
+
+            <p class="text-justify mobile:pt-8 mobile:text-center text-xl font-light mobile:w-auto tablet:w-[400px] tablet:mx-auto laptops:w-[750px] laptops:text-left text-white">
+              <span>We understand that everyone's fitness journey is unique, which is why our expert trainers are dedicated to crafting customized workout plans tailored to your goals and aspirations.</span>
+            </p>
+
+            <a href="#"><button class="mobile:text-xl tablet:text-2xl laptops:text-2xl text-white bg-Shape hover:bg-white hover:text-Shape cursor-pointer font-light px-8 py-3 mt-10 hover:transition-all hover:ease-in hover:duration-200" type="submit">Start Your Journey</button></a>
+
+          </div>
+
+          <!-- image -->
+
+          <div class="mobile:pt-12 tablet:pt-12 laptops:-mt-72 laptops:w-1/2">
+            <img src="/imges/gym2.jpg" alt="">
+            
+          </div>
+        
+        </div>
+
+        </div>
+       </section>
+
+       <!-- Hero section3 -->
+
+        <section class="bg-cover bg-fixed bg-no-repeat bg-center" style="background-image: url(/imges/gym13.jpg);">
+
+        <div class="container mx-auto">
+
+          <div class="laptops:flex laptops:flex-col">
+
+            <h3 class="laptops:mt-10 mobile:text-center laptops:text-left mobile:pt-8 mobile:text-2xl tablet:text-3xl laptops:text-4xl font-light text-Shape">
+            <span>Classes</span>
+          </h3>
+
+            <h4 class="mobile:pt-8 mobile:text-center mobile:text-6xl laptops:text-8xl laptops:w-[650px] laptops:text-left laptops:mx-0 mobile:w-auto tablet:w-[600px] tablet:mx-auto text-white">
+            <span>Discover a diverse array of experiences</span>
+          </h4>
+        </div>
+
+        <!-- 3 images sections -->
+
+
+        <!-- 1 inmage -->
+
+        <div class="mobile:mt-20 laptops:mt-20 laptops:grid laptops:grid-cols-3 laptops:gap-6">
+
+          <div>
+            <img class="shadow-Shape shadow-lg tablet:shadow-2xl" src="/imges/gym6.jpg" alt="">
+
+            <h3 class="mobile:mt-10 tablet:mt-0 laptops:mt-0 mobile:text-center laptops:text-left mobile:pt-8 tablet:pt-20 mobile:text-4xl tablet:text-5xl laptops:text-5xl laptops:w-[250px] font-light text-Shape">
+              <span>Fit Training Sessions</span>
+            </h3>
+
+            <p class="mobile:pb-10 tablet:pb-20 mobile:pt-8 mobile:mx-auto  mobile:text-2xl tablet:text-3xl laptops:text-2xl font-light mobile:w-[310px]  tablet:w-[400px] tablet:mx-auto laptops:w-[400px] laptops:mx-0 laptops:text-left text-white">
+              <span>Elevate your fitness journey with our Fit Training Sessions</span>
+            </p>
+            
+          </div>
+
+          <!-- 2 image -->
+
+          <div>
+            <img class="shadow-Shape shadow-lg tablet:shadow-2xl" src="/imges/yoga2.jpg" alt="">
+
+            <h3 class="mobile:mt-10 tablet:mt-0 laptops:mt-0 mobile:text-center laptops:text-left mobile:pt-8 tablet:pt-20 mobile:text-4xl tablet:text-5xl laptops:text-5xl laptops:w-[300px] font-light text-Shape">
+              <span>MindBody Fusion Yoga</span>
+            </h3>
+
+            <p class="mobile:pb-10 tablet:pb-20 mobile:pt-8 mobile:mx-auto  mobile:text-2xl tablet:text-3xl laptops:text-2xl font-light mobile:w-[310px]  tablet:w-[400px] tablet:mx-auto laptops:w-[400px] laptops:mx-0 laptops:text-left text-white">
+              <span>Harmonize body and mind with MindBody Fusion Yoga</span>
+            </p>
+            
+          </div>
+
+          <!-- 3 image -->
+
+          <div>
+            <img class="shadow-Shape shadow-lg tablet:shadow-2xl" src="/imges/gym10.jpg" alt="">
+
+            <h3 class="mobile:mt-10 tablet:mt-0 laptops:mt-0 mobile:text-center laptops:text-left mobile:pt-8 tablet:pt-20 mobile:text-4xl tablet:text-5xl laptops:text-5xl laptops:w-[350px] font-light text-Shape">
+              <span>Interval Training Bootcamp</span>
+            </h3>
+
+            <p class="mobile:pb-10 tablet:pb-20 mobile:pt-8 mobile:mx-auto  mobile:text-2xl tablet:text-3xl laptops:text-2xl font-light mobile:w-[310px]  tablet:w-[400px] tablet:mx-auto laptops:w-[400px] laptops:mx-0 laptops:text-left text-white">
+              <span>Elevate your fitness journey with our Fit Training Sessions</span>
+            </p>
+            
+          </div>
+          
+        </div>
+
+        </div>
+
+       </section>
+
+       <!-- 4 Membership Plans sections -->
+
+       <section class="bg-cover bg-fixed bg-no-repeat bg-center" style="background-image: url(/imges/gym12.jpg);">
+
+        <div class="container mx-auto">
+
+          <div class="laptops:flex laptops:flex-col">
+
+            <h3 class="pt-10 mobile:text-center laptops:text-left mobile:text-2xl tablet:text-3xl laptops:text-4xl font-light text-Shape">
+            <span>Membership Plans</span>
+          </h3>
+
+            <h4 class="mobile:pt-8 mobile:mx-auto mobile:text-center mobile:text-6xl laptops:text-8xl laptops:w-[900px] laptops:text-left laptops:mx-0  mobile:w-[400px] tablet:w-[600px] tablet:mx-auto text-white">
+            <span>Explore our flexible membership plans</span>
+          </h4>
+        </div>
+
+        <!-- Monthly plans -->
+
+          <div class="laptops:grid laptops:grid-cols-3 laptops:gap-6 mobile:space-y-10 mobile:mt-10 tablet:mt-20 laptops:mt-20 laptops:space-y-0 pb-10">
+
+            <!-- Starter -->
+
+            <div class="text-white mobile:mx-auto mobile:w-96 tablet:w-[500px] border-2 border-Shape backdrop-blur-xs bg-black/30 shadow-black shadow-2xl laptops:py-8">
+
+              <h3 class="mobile:text-center mobile:pt-8 mobile:text-6xl tablet:text-6xl laptops:text-6xl font-medium text-Shape">
+                <span>Starter</span>
+              </h3>
+
+              <p class="py-2 font-light text-center mobile:text-2xl tablet:text-3xl laptops:text-2xl text-white">
+                <span>Free trial 30 days.</span>
+              </p>
+
+              <div class="py-2 mx-auto w-60 border-b-2 border-Shape">
+                
+              </div>
+
+              <!-- Price $19,99 -->
+
+              <div class="flex justify-center items-center pt-5">
+                <p class="text-3xl mb-10 pr-2">$</p>
+                <p class="text-9xl">19</p>
+                <p class="text-3xl mb-16 pr-2">99</p>
+                
+              </div>
+
+              <div class="text-center text-2xl font-light pb-5">
+                <p>Monthly</p>
+              </div>
+
+              <!--  -->
+
+              <div class="text-center text-white text-2xl font-light py-5">
+                <p>&check; Partner Discounts</p>
+                <p>&check; Expert Guidance</p>
+                <p>&check; Nutrition Support</p>
+
+                
+              <!-- Get Started  button -->
+
+                <a href="#"><button class=" mobile:text-xl tablet:text-2xl laptops:text-2xl text-white bg-Shape hover:bg-white hover:text-Shape cursor-pointer 
+              font-light px-8 py-3 mt-10 mb-5 laptops:mb-0 hover:transition-all hover:ease-in hover:duration-200" 
+              type="submit">Get Started </button></a>
+
+              </div>
+             
+            </div>
+
+
+            <!-- Fit Plus -->
+
+
+            <div class="text-white mobile:mx-auto mobile:w-96 tablet:w-[500px] border-2 border-Shape backdrop-blur-xs bg-black/30 shadow-black shadow-2xl laptops:py-8">
+
+              <h3 class="mobile:text-center mobile:pt-8 mobile:text-6xl tablet:text-6xl laptops:text-6xl font-medium text-Shape">
+                <span>Fit Plus</span>
+              </h3>
+
+              <p class="py-2 font-light text-center mobile:text-2xl tablet:text-3xl laptops:text-2xl text-white">
+                <span>Free trial 30 days.</span>
+              </p>
+
+              <div class="py-2 mx-auto w-60 border-b-2 border-Shape">
+                
+              </div>
+
+              <!-- Price $29,99 -->
+
+              <div class="flex justify-center items-center pt-5">
+                <p class="text-3xl mb-10 pr-2">$</p>
+                <p class="text-9xl">29</p>
+                <p class="text-3xl mb-16 pr-2">99</p>
+                
+              </div>
+
+              <div class="text-center text-2xl font-light pb-5">
+                <p>Monthly</p>
+              </div>
+
+              <!--  -->
+
+              <div class="text-center text-white text-2xl font-light py-5">
+                <p>&check; Exclusive Classes</p>
+                <p>&check; Nutrition Support</p>
+                <p>&check; Facility Access</p>
+
+                
+              <!-- Get Started  button -->
+
+                <a href="#"><button class="mobile:text-xl tablet:text-2xl laptops:text-2xl text-white bg-Shape hover:bg-white hover:text-Shape cursor-pointer 
+              font-light px-8 py-3 mt-10 mb-5 laptops:mb-0 hover:transition-all hover:ease-in hover:duration-200" 
+              type="submit">Get Started </button></a>
+
+              </div>
+             
+            </div>
+
+
+            <!-- Elite -->
+
+
+            <div class="text-white mobile:mx-auto mobile:w-96 tablet:w-[500px] border-2 border-Shape backdrop-blur-xs bg-black/30 shadow-black shadow-2xl laptops:py-8">
+
+              <h3 class="mobile:text-center mobile:pt-8 mobile:text-6xl tablet:text-6xl laptops:text-6xl font-medium text-Shape">
+                <span>Elite</span>
+              </h3>
+
+              <p class="py-2 font-light text-center mobile:text-2xl tablet:text-3xl laptops:text-2xl text-white">
+                <span>Free trial 30 days.</span>
+              </p>
+
+              <div class="py-2 mx-auto w-60 border-b-2 border-Shape">
+                
+              </div>
+
+              <!-- Price $39,99 -->
+
+              <div class="flex justify-center items-center pt-5">
+                <p class="text-3xl mb-10 pr-2">$</p>
+                <p class="text-9xl">39</p>
+                <p class="text-3xl mb-16 pr-2">99</p>
+                
+              </div>
+
+              <div class="text-center text-2xl font-light pb-5">
+                <p>Monthly</p>
+              </div>
+
+              <!--  -->
+
+              <div class="text-center text-white text-2xl font-light py-5">
+                <p>&check; Unlimited Access</p>
+                <p>&check; Personalized Plans</p>
+                <p>&check; Expert Guidance</p>
+
+                
+              <!-- Get Started  button -->
+              <a href="#">
+                <button class="mobile:text-xl tablet:text-2xl laptops:text-2xl text-white bg-Shape hover:bg-white hover:text-Shape cursor-pointer 
+              font-light px-8 py-3 mt-10 mb-5 laptops:mb-0 hover:transition-all hover:ease-in hover:duration-200" 
+              type="submit">Get Started </button></a>
+
+              </div>
+             
+            </div>
+
+          </div>
+
+        </div>
+       </section>
+
+
+       <!-- Gallery section -->
+
+
+       <section class="bg-cover bg-fixed bg-no-repeat bg-center" style="background-image: url(/imges/gym13.jpg);">
+
+        <div class="container mx-auto">
+
+            <h3 class="mobile:text-center laptops:text-left mobile:pt-8 mobile:text-2xl tablet:text-3xl laptops:text-4xl font-light text-Shape">
+            <span>Gallery</span>
+          </h3>
+
+            <h4 class="mobile:pt-8 mobile:text-center mobile:text-6xl laptops:text-8xl laptops:w-[1400px] laptops:text-left laptops:mx-0 mobile:w-auto tablet:w-[600px] tablet:mx-auto text-white">
+            <span>Step into the vibrant world of our gym through our gallery</span>
+          </h4>
+
+        <!--5 grid images -->
+
+
+        <div class="mt-10 laptops:mt-10  tablet:px-4 grid tablet:grid-cols-2 laptops:grid-cols-4 laptops:grid-rows-2 gap-4 pb-5">
+
+          <img class="laptops:col-span-2 laptops:row-span-2 w-fullh-full object-cover" src="/imges/gym9.jpg" alt="">
+          <img class="w-full h-full object-cover" src="/imges/gym7.jpg" alt="">
+          <img class="tablet:col-span-2 tablet:row-span-1 laptops:col-span-1 w-full h-full object-cover" src="/imges/gym4.jpg" alt="">
+          <img class="w-full h-full object-cover" src="/imges/gym8.jpg" alt="">
+          <img class="w-full h-full object-cover" src="/imges/gym3.jpg" alt="">  
+
+        </div>
+
+        </div>
+
+       </section>
+
+       <!-- Join Today -->
+
+       <section class="bg-cover bg-fixed bg-no-repeat" style="background-image: url(/imges/gym14.jpg);">
+
+        <div class="container mx-auto">
+
+          <div class="flex flex-col py-10">
+
+            <h3 class="mobile:text-center laptops:text-left mobile:pt-8 mobile:text-2xl tablet:text-3xl laptops:text-4xl font-light text-Shape">
+              <span>Join Today</span>
+            </h3>
+
+            <h4 class="mobile:pt-8 mobile:text-center mobile:text-6xl laptops:text-8xl mobile:w-[400px] mobile:mx-auto tablet:w-[600px] tablet:mx-auto laptops:mx-0 laptops:w-[950px] laptops:text-left text-white">
+              <span>Ready to transform your fitness journey?</span>
+
+            </h4>
+
+            <p class="mobile:pt-8 mobile:text-center text-xl font-light mobile:w-[400px] tablet:w-[400px] mobile:mx-auto laptops:mx-0 laptops:w-[750px] laptops:text-left text-white">
+              <span>Dive into the GymPro experience now. Click to join us, where every workout is a step closer to a stronger, healthier, and happier you!</span>
+            </p>
+
+            <div class="mx-auto mb-5 laptops:mx-0">
+              <a href="#"><button class="laptops:w-72 mobile:text-xl tablet:text-2xl laptops:text-2xl text-white bg-Shape hover:bg-white hover:text-Shape cursor-pointer font-light px-8 py-3 mt-10 hover:transition-all hover:ease-in hover:duration-200" type="submit">Start Your Journey</button></a>
+            </div>
+
+          </div>
+
+        </div>
+
+       </section>
+
+       <!-- footer section -->
+
+       <section>
+
+        <div class="bg-cover bg-fixed bg-no-repeat" style="background-image: url(/imges/gym13.jpg);">
+
+          <div class="py-8">
+
+            <div class="border-Shape border-b-[0.1rem]">
+
+            <div class="container mx-auto">
+
+              <div class="flex flex-col items-center laptops:flex laptops:flex-row laptops:justify-between laptops:space-x-10 py-8">
+                <div class="text-Shape text-2xl tablet:text-3xl py-5">
+                <a href="#">Shape<span class="text-white">Side</span></a>
+              </div>
+
+              <ul class="text-white text-center flex flex-col justify-center items-center laptops:flex-row laptops:space-x-6">
+
+                <li class="py-3 hover:backdrop-blur-sm hover:w-96 laptops:hover:w-auto mobile:hover:bg-Shape mobile:w-full cursor-pointer laptops:hover:backdrop-blur-none laptops:hover:bg-white/0">
+                  <a class="hover:text-amber-300 text-Shape text-xl font-light hover:ease-in hover:duration-200 nav__link" href="#">Home</a></li>
+
+                <li class="py-3 hover:backdrop-blur-sm hover:w-96 laptops:hover:w-auto mobile:hover:bg-Shape mobile:w-full cursor-pointer laptops:hover:backdrop-blur-none laptops:hover:bg-white/0">
+                  <a class="hover:text-amber-300 text-xl font-light hover:ease-in hover:duration-200 nav__link" href="#">About</a></li>
+
+                <li class="py-3 hover:backdrop-blur-sm hover:w-96 laptops:hover:w-auto mobile:hover:bg-Shape mobile:w-full cursor-pointer laptops:hover:backdrop-blur-none laptops:hover:bg-white/0"> 
+                  <a class="hover:text-amber-300 text-xl font-light hover:ease-in hover:duration-200 nav__link" href="#">classes</a></li>
+
+                <li class="py-3 hover:backdrop-blur-sm hover:w-96 laptops:hover:w-auto mobile:hover:bg-Shape mobile:w-full cursor-pointer laptops:hover:backdrop-blur-none laptops:hover:bg-white/0">  
+                  <a class="hover:text-amber-300 text-xl font-light hover:ease-in hover:duration-200 nav__link" href="#">Membership</a></li>  
+
+                <li class="py-3 hover:backdrop-blur-sm hover:w-96 laptops:hover:w-auto mobile:hover:bg-Shape mobile:w-full cursor-pointer laptops:hover:backdrop-blur-none laptops:hover:bg-white/0">
+                  <a class="hover:text-amber-300 text-xl font-light hover:ease-in hover:duration-200 nav__link" href="#">Contact</a></li>
+              </ul>
+
+              <div class="text-white text-xl space-x-3 cursor-pointer py-5">
+              <a href="#" target="_blank"><i class="fa-brands fa-whatsapp laptops:hover:text-amber-300 laptops:ease-in laptops:duration-200"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-facebook laptops:hover:text-amber-300 laptops:ease-in laptops:duration-200"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-instagram laptops:hover:text-amber-300 laptops:ease-in laptops:duration-200"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-twitter laptops:hover:text-amber-300 laptops:ease-in laptops:duration-200"></i></a>
+             </div>
+
+            </div>
+
+            </div>
+
+            </div>
+
+          </div>
+
+          <!-- credit site -->
+
+          <div class="py-8">
+            <div class="container mx-auto">
+
+            <div class="flex flex-col justify-center items-center laptops:flex-row laptops:justify-between">
+  
+            <div class="text-white text-lg laptops:text-sm font-light">
+              <h3><span>Copyright © 2025 ShapeSide</span></h3>
+            </div>
+            
+            <div class="text-white text-lg text-center laptops:text-sm font-light flex space-x-2 py-2 laptops:py-0">
+              <h3><span>Design by Suman</span></h3>
+              <a href="https://www.instagram.com/sumanbrival/" target="_blank">
+                <i class="fa-brands fa-instagram text-xl laptops:hover:text-amber-300 laptops:ease-in laptops:duration-200"></i></a>
+            </div>
+          </div>
+
+
+          </div>
+          </div>
+
+
+          </div>
+       </section>
+    </main>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
